@@ -1,0 +1,42 @@
+/* Center form with background */
+.form-container {
+    background: #f8f9fa;
+    padding: 2rem;
+  }
+  
+  /* Card styling */
+  .form-card {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+  }
+  
+  /* Brand title */
+  .brand-title {
+    font-weight: bold;
+    color: #0d6efd;
+  }
+  
+  /* Toggle password button */
+  .toggle-password {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  /* Remove outline from toggle */
+  .toggle-password:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    .form-card {
+      padding: 1.5rem;
+    }
+  }
+  
